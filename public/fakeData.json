@@ -1,0 +1,53 @@
+[
+    {
+        "id" : 1,
+        "author-name" : "Mr. Raju",
+        "blog-title" : "How to get your first job as a self-taught programmer",
+    
+        "Blog-cover-image" : "https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.jpg?b=1&s=170667a&w=0&k=20&c=Mcir7vC75iWlMwltmAMIdT4n5cA6cDJ8shaTLSDcLDc=",
+
+        "Author-image" : "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
+
+        "Read-time" : "05 min ",
+        "Publish Date" : "4 march, 2023"
+    },
+
+    {
+        "id" : 2,
+        "author-name" : "Mr. Raju",
+        "blog-title" : "How to get your first job as a self-taught programmer",
+    
+        "Blog-cover-image" : "https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.jpg?b=1&s=170667a&w=0&k=20&c=Mcir7vC75iWlMwltmAMIdT4n5cA6cDJ8shaTLSDcLDc=",
+
+        "Author-image" : "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
+
+        "Read-time" : "05 min ",
+        "Publish Date" : "4 march, 2023"
+    },
+
+    {
+        "id" : 3,
+        "author-name" : "Mr. Raju",
+        "blog-title" : "How to get your first job as a self-taught programmer",
+    
+        "Blog-cover-image" : "https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.jpg?b=1&s=170667a&w=0&k=20&c=Mcir7vC75iWlMwltmAMIdT4n5cA6cDJ8shaTLSDcLDc=",
+
+        "Author-image" : "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
+
+        "Read-time" : "05 min ",
+        "Publish Date" : "4 march, 2023"
+    },
+
+    {
+        "id" : 4,
+        "author-name" : "Mr. Raju",
+        "blog-title" : "How to get your first job as a self-taught programmer",
+    
+        "Blog-cover-image" : "https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.jpg?b=1&s=170667a&w=0&k=20&c=Mcir7vC75iWlMwltmAMIdT4n5cA6cDJ8shaTLSDcLDc=",
+
+        "Author-image" : "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
+
+        "Read-time" : "05 min ",
+        "Publish Date" : "4 march, 2023"
+    }
+]

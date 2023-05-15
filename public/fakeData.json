@@ -1,53 +1,43 @@
 [
     {
-        "id" : 1,
-        "author_name" : "Mr. Raju",
-        "blog_title" : "How to get your first job as a self-taught programmer",
-    
-        "Blog_cover_image" : "https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.jpg?b=1&s=170667a&w=0&k=20&c=Mcir7vC75iWlMwltmAMIdT4n5cA6cDJ8shaTLSDcLDc=",
-
-        "Author_image" : "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
-
-        "Read_time" : "05 min ",
-        "Publish_Date" : "4 march, 2023"
+        "id": "1",
+        "author_name": "Mr. Raju",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "Blog_cover_image":"https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.jpg?b=1&s=170667a&w=0&k=20&c=Mcir7vC75iWlMwltmAMIdT4n5cA6cDJ8shaTLSDcLDc=",
+        
+        "Author_image": "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
+        "Read_time": "05 min ",
+        "Publish_Date": "4 march, 2023"
     },
-
     {
-        "id" : 2,
-        "author-name" : "Mr. Sayem",
-        "blog-title" : "How to get your first job as a self-taught programmer",
-    
-        "Blog-cover-image" : "https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.jpg?b=1&s=170667a&w=0&k=20&c=Mcir7vC75iWlMwltmAMIdT4n5cA6cDJ8shaTLSDcLDc=",
-
-        "Author-image" : "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
-
-        "Read-time" : "05 min ",
-        "Publish Date" : "4 march, 2023"
+        "id": "2",
+        "author_name": "Mr. Sayem",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        
+        "Blog_cover_image": "https://media.istockphoto.com/id/1348369671/photo/business-man-using-computer-hand-close-up-futuristic-cyber-space-and-decentralized-finance.webp?s=1024x1024&w=is&k=20&c=r1CTnmLEi_cSVyAjalvl8cDQ2mc7nalfrUtDsRrF2d0=",
+        
+        "Author_image": "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
+        "Read_time": "05 min ",
+        "Publish_Date": "4 march, 2023"
     },
-
     {
-        "id" : 3,
-        "author-name" : "Mr. Akbar",
-        "blog-title" : "How to get your first job as a self-taught programmer",
-    
-        "Blog-cover-image" : "https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.jpg?b=1&s=170667a&w=0&k=20&c=Mcir7vC75iWlMwltmAMIdT4n5cA6cDJ8shaTLSDcLDc=",
-
-        "Author-image" : "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
-
-        "Read-time" : "05 min ",
-        "Publish Date" : "4 march, 2023"
+        "id": "3",
+        "author_name": "Mr. Akbar",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        
+        "Blog_cover_image": "https://media.istockphoto.com/id/1347347443/photo/hacker-seated-in-server-room-launching-cyberattack-on-laptop.webp?s=1024x1024&w=is&k=20&c=1EP5rAGXqURQ_c6vCtupshyjqX7FdEpR-4kzkqDU9yM=",
+        
+        "Author_image": "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
+        "Read_time": "05 min ",
+        "Publish_Date": "4 march, 2023"
     },
-
     {
-        "id" : 4,
-        "author-name" : "Mr. Shuvo",
-        "blog-title" : "How to get your first job as a self-taught programmer",
-    
-        "Blog-cover-image" : "https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.jpg?b=1&s=170667a&w=0&k=20&c=Mcir7vC75iWlMwltmAMIdT4n5cA6cDJ8shaTLSDcLDc=",
-
-        "Author-image" : "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
-
-        "Read-time" : "05 min ",
-        "Publish Date" : "4 march, 2023"
+        "id": "4",
+        "author_name": "Mr. Sakib",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "Blog_cover_image": "https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.jpg?b=1&s=170667a&w=0&k=20&c=Mcir7vC75iWlMwltmAMIdT4n5cA6cDJ8shaTLSDcLDc=",
+        "Author_image": "https://www.vhv.rs/dpng/d/544-5445462_people-icons-png-flat-person-icon-png-transparent.png",
+        "Read_time": "05 min ",
+        "Publish_Date": "4 march, 2023"
     }
 ]

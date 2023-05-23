@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './Blogs.css';
 import Blog from '../Blog/Blog';
+import Spent from '../Spent/Spent';
 
 const Blogs = () => {
+
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
@@ -10,6 +12,12 @@ const Blogs = () => {
             .then(res => res.json())
             .then(data => setBlogs(data));
     }, []);
+
+    const [read, setRead] = useState([]);
+    const handleBookMark = (detail) => {
+        const newRead = [...read, detail];
+        setRead(newRead);
+    }
 
     return (
         <div className='blogs-bookmark'>
@@ -20,12 +28,17 @@ const Blogs = () => {
                         <Blog
                             key={blog.id}
                             b={blog}
+                            f={handleBookMark}
                         ></Blog>
                     )
                 }
             </div>
 
-            <div className='bookmark'>
+            <div className='bookmark-time'>
+
+                <Spent 
+                    read = {read}
+                ></Spent>
 
             </div>
         </div>

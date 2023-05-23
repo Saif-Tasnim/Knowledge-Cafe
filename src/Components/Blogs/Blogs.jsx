@@ -14,9 +14,12 @@ const Blogs = () => {
     }, []);
 
     const [read, setRead] = useState([]);
+
+    // event handler for mark as read
     const handleBookMark = (detail) => {
         const newRead = [...read, detail];
         setRead(newRead);
+
     }
 
     return (
@@ -36,8 +39,8 @@ const Blogs = () => {
 
             <div className='bookmark-time'>
 
-                <Spent 
-                    read = {read}
+                <Spent
+                    read={read}
                 ></Spent>
 
             </div>

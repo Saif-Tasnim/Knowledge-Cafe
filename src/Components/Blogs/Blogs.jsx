@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Blogs.css';
 import Blog from '../Blog/Blog';
 import Spent from '../Spent/Spent';
+import Bookmark from '../Bookmark/Bookmark';
 
 const Blogs = () => {
 
@@ -19,6 +20,10 @@ const Blogs = () => {
     const handleBookMark = (detail) => {
         const newRead = [...read, detail];
         setRead(newRead);
+
+    }
+    // event handler for bookmark tab button
+    const clickBookMark = () => {
 
     }
 
@@ -42,6 +47,9 @@ const Blogs = () => {
                 <Spent
                     read={read}
                 ></Spent>
+                
+                <Bookmark> </Bookmark>
+
 
             </div>
         </div>

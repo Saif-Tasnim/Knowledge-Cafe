@@ -5,7 +5,7 @@ import Spent from '../Spent/Spent';
 import Bookmark from '../Bookmark/Bookmark';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Mark from '../Mark/Mark';
+
 
 const Blogs = () => {
 
@@ -32,7 +32,7 @@ const Blogs = () => {
         const storedMark = getStoredMark();
 
         setBookMark(storedMark);
-        console.log(storedMark);
+        // console.log(storedMark);
 
     }, []);
 
@@ -44,7 +44,7 @@ const Blogs = () => {
         const exist = bookMark.find(bm => bm.id === detail.id);
 
         if (exist) {
-            toast('🦄 You Have Already added this in Bookmark!', {
+            toast('🦄 You Have Already Bookmarked This Blog!', {
                 position: "top-center",
                 autoClose: 1000,
                 hideProgressBar: true,

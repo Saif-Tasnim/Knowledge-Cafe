@@ -46,8 +46,25 @@ const Answer = () => {
 
             </p>
 
-            <h1> 1. Props vs State ? </h1>
-            <p><b>ANS : </b> </p>
+            <h1> 2. How does useState work ? </h1>
+            <p><b>ANS : </b>  The useState is a built-in hook in React that allows functional components to have and manage state. It provides a way to declare and update state variables within a functional component. Heres how useState works:
+
+                <ol>
+                    <li>Importing the hook: <br></br>
+                        To use useState, you need to import it from the react module in your component file. </li>
+
+                    <li> Initializing state: <br></br>
+                        Inside your functional component, call the useState hook and provide an initial value for the state variable. It returns an array with two elements: the current state value and a function to update the state. </li>
+
+                    <li>Accessing state: <br />
+                        You can access the current value of the state variable using the state variable in your components code.</li>
+
+                    <li>Updating state: <br />
+                        To update the state, you use the provided state update function (setState). It accepts a new value and triggers a re-render of the component with the updated state.
+                    </li>
+                </ol>
+                Thats the basic usage of the useState hook. By using useState, functional components can now manage their own state, allowing for more flexible and reusable code. Remember to import the hook, initialize state, access it, and update it using the state update function provided by useState.
+            </p>
 
         </div>
     );

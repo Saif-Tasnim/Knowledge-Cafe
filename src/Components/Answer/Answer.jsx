@@ -105,18 +105,30 @@ Heres an overview of how React works: <br/>
     </li>
 
     <li>
+    Virtual DOM: <br/>React introduces a virtual representation of the DOM, called the virtual DOM. Its a lightweight copy of the actual DOM maintained by React. The virtual DOM allows React to efficiently update and render only the necessary parts of the user interface, minimizing expensive DOM operations.
+    </li>
+
+    <li>
+
+    JSX Syntax: <br/> React uses JSX (JavaScript XML) as a syntax extension, which allows you to write HTML-like code within JavaScript. JSX enables a declarative and intuitive way to describe the structure and appearance of components.
+    </li>
+
+    <li>
         
+Component Rendering: <br/> When a React component is rendered, it generates a virtual DOM representation of its structure and content. This virtual DOM is compared with the previous virtual DOM snapshot to identify the differences (known as the diffing process).
+    </li>
+
+    <li>
+    Reconciliation: <br/>Reacts reconciliation process analyzes the differences between the previous and current virtual DOM and efficiently updates only the necessary parts in the actual DOM. This minimizes the number of DOM manipulations and enhances performance.
     </li>
 </ol>
 
 
-Virtual DOM: React introduces a virtual representation of the DOM, called the virtual DOM. Its a lightweight copy of the actual DOM maintained by React. The virtual DOM allows React to efficiently update and render only the necessary parts of the user interface, minimizing expensive DOM operations.
 
-JSX Syntax: React uses JSX (JavaScript XML) as a syntax extension, which allows you to write HTML-like code within JavaScript. JSX enables a declarative and intuitive way to describe the structure and appearance of components.
 
-Component Rendering: When a React component is rendered, it generates a virtual DOM representation of its structure and content. This virtual DOM is compared with the previous virtual DOM snapshot to identify the differences (known as the diffing process).
 
-Reconciliation: Reacts reconciliation process analyzes the differences between the previous and current virtual DOM and efficiently updates only the necessary parts in the actual DOM. This minimizes the number of DOM manipulations and enhances performance.
+
+
             </p>
 
 

@@ -1,0 +1,15 @@
+.answer{
+    width: 991px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: rgba(17, 17, 17, 0.05);
+}
+
+.answer>h1{
+    text-align: center;
+}
+
+.answer>p{
+    padding: 8px;
+    font-size: 18px;
+}

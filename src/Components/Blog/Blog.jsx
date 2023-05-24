@@ -1,12 +1,14 @@
 import React from 'react';
 import './Blog.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Blog = (props) => {
     const { id, author_name, blog_title, Blog_cover_image, Author_image, Read_time, Publish_Date } = props.b;
 
     const handleBookMark = props.f;
+    const clickBookMark = props.f2;
 
 
     return (
@@ -28,10 +30,11 @@ const Blog = (props) => {
                     </div>
 
                     <div className='reading'>
-                        <span> {Read_time} min read</span> &nbsp;  <button >
+                        <span> {Read_time} min read</span> &nbsp;  <button onClick={()=>{clickBookMark(props.b)}} >
 
                             <FontAwesomeIcon icon={faBookmark} />
                         </button>
+                        <ToastContainer />
                     </div>
                 </div>
 
